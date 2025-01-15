@@ -29,9 +29,9 @@ const UserScreen = () => {
     { icon: <IoFastFoodOutline />, label: 'Other' }
   ];
 
-  const handlePayment = () => { const amount = 106000; 
-  const name = 'Patricia'; const email = 'patricia@email.com';
-   const contact = '9812398123'; displayRazorpay(amount, name, email, contact); };
+  // const handlePayment = () => { const amount = 106000; 
+  // const name = 'Patricia'; const email = 'patricia@email.com';
+  //  const contact = '9812398123'; displayRazorpay(amount, name, email, contact); };
 
   return (
     <main className='w-full flex flex-col sm:flex-row overflow-y-auto'>
@@ -150,7 +150,7 @@ const UserScreen = () => {
             <span className='text-xl'>₹ 1060</span>
           </div>
 
-          <button className='mt-4 px-2 rounded-xl text-xl text-white border-2  hover:bg-green-500 hover:font-semibold hover:text-black hover:border-black' onClick={handlePayment}>Pay Now</button>
+          <button className='mt-4 px-2 rounded-xl text-xl text-white border-2  hover:bg-green-500 hover:font-semibold hover:text-black hover:border-black' >Pay Now</button>
 
         </div>
 
