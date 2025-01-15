@@ -17,7 +17,7 @@ const displayRazorpay = async (amount, name, email, contact) => {
   }
 
   const options = {
-    key: 'rzp_test_L2JCtYruGGCB8k', // Enter the Key ID generated from the Dashboard
+    key: '', // Enter the Key ID generated from the Dashboard
     amount: amount, // Amount in paise (e.g., 106000 paise = INR 1060)
     currency: 'INR',
     name: 'Dasy Delicious',
