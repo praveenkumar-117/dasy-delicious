@@ -13,7 +13,7 @@ import { FiLogOut } from "react-icons/fi";
 import { FaRegUser } from "react-icons/fa";
 import Dishes from './Dishesh';
 import { Link } from 'react-router-dom';
-import { displayRazorpay } from '../payment'
+// import { displayRazorpay } from '../payment'
 
 
 
